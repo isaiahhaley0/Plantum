@@ -16,4 +16,6 @@ This is repo is a project I put together that uses esp32 cam, a flask app, and a
 
     b. return timelapse from server(see 1.a)
 
-    
+3. Make determinations about plants
+
+    a. app needs to make determinations on the current picture brightness
