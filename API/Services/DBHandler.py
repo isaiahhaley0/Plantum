@@ -39,3 +39,9 @@ class DBHandler:
         clist = {}
         clist['cameras'] = records
         return clist
+
+    def get_photos(self, cam_name):
+        coll = self.__db.photo_records
+        fltr = {"name":cam_name}
+        print(cam_name)
+        return list(coll.find(fltr))

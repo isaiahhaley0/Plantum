@@ -4,10 +4,11 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import time
 
-from flask import Flask, request, jsonify,Response,make_response
+from flask import Flask, request, jsonify,Response,make_response, send_file
 import Services.DBHandler as mh
 import Services.Stats as st
 import Services.CameraControl as CC
+import Services.image_handler as ih
 from PIL import Image
 import io
 import os
@@ -42,6 +43,14 @@ def check_should_flash():
 def get_camera_information():
     return mhd.get_camera_data()
 
+@app.route("/photos",methods=['GET'])
+def get_photos():
+    name = request.args.get('name')
+    print(name)
+    photo_list = ih.get_photos(camera_name=name)
+    print(len(photo_list))
+    fp = ih.make_gif(photo_list)
+    return send_file(fp)
 
 @app.route("/upload",methods=['POST'])
 def upload_photo():
