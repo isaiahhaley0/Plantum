@@ -25,7 +25,7 @@ def make_gif(image_list):
     frames = [Image.open(image['save_path']) for image in image_list]
     frame_one = frames[0]
     save_location = "E:/plant/gifs/"+image_list[0]['name']+time.time().__str__()+".gif"
-    frame_one.save(save_location, append_images=frames[1::30],
+    frame_one.save(save_location, append_images=frames[1::10],
                save_all=True, duration=10, loop=0)
     return save_location
 
