@@ -35,7 +35,7 @@ void APIHandler::sendImage(string filepath,camera_fb_t* fb)
     {
         initWifi();
     }
-    string path = basePath+"/upload?name=cam2";
+    string path = basePath+"/upload?name=cam3";
     client.begin(path.c_str());
     string fmData = "form-data; name=\"img\"; filename="+filepath;
     client.addHeader("Content-Disposition",fmData.c_str());
