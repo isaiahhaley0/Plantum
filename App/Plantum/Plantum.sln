@@ -4,7 +4,9 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plantum", "Plantum.csproj", "{CE6E7BBB-7C81-4841-AC80-6A88AB6800D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantumLib", "..\PlantumLib\PlantumLib.csproj", "{F992B78A-BA65-42D7-BC10-CF7988B5723A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantumLib", "..\PlantumLib\PlantumLib.csproj", "{F992B78A-BA65-42D7-BC10-CF7988B5723A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantumTests", "..\PlantumTests\PlantumTests.csproj", "{0B1D05F8-9876-4524-B42C-A8911A94FEEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,12 +24,16 @@ Global
 		{F992B78A-BA65-42D7-BC10-CF7988B5723A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F992B78A-BA65-42D7-BC10-CF7988B5723A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F992B78A-BA65-42D7-BC10-CF7988B5723A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1D05F8-9876-4524-B42C-A8911A94FEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1D05F8-9876-4524-B42C-A8911A94FEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1D05F8-9876-4524-B42C-A8911A94FEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1D05F8-9876-4524-B42C-A8911A94FEEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		        SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
 		SolutionGuid = {A3F38974-494A-45EC-AA6D-6B303FBA9293}
+		        SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
 	EndGlobalSection
 EndGlobal

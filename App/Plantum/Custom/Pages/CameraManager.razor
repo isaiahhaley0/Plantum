@@ -1,0 +1,40 @@
+﻿@using PlantumLib.Controllers;
+@using PlantumLib.Models;
+@using Plantum.Custom.Components;
+
+@inject CameraController cc
+@page "/CameraManager"
+<h3>CameraManager</h3>
+@if(loading)
+{
+    <div>Loading</div>
+}
+else
+{
+    @foreach (var c in cameraList)
+    {
+        <CameraComp Name=@c.Name PhotoCount=@c.PhotoCount></CameraComp>
+    }
+}
+
+
+
+@code {
+    bool loading = true;
+    List<Camera> cameraList { get; set; } 
+
+    private async void start()
+    {
+        
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        var camList = await cc.PopulateCams();
+
+
+        cameraList = camList;
+        loading = false;
+
+    }
+
+}

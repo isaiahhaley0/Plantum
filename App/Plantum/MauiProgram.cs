@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Plantum.Data;
+using PlantumLib.Controllers;
 
 namespace Plantum;
 
@@ -23,6 +24,7 @@ public static class MauiProgram
 #endif
 
 		builder.Services.AddSingleton<WeatherForecastService>();
+		builder.Services.AddSingleton<CameraController>();
 
 		return builder.Build();
 	}

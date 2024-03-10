@@ -2290,6 +2290,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-android33.0/android-arm": {
@@ -4574,6 +4584,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -6860,6 +6880,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-android33.0/android-x64": {
@@ -9144,6 +9174,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -11430,6 +11470,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
@@ -13714,6 +13764,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -16000,6 +16060,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-android33.0/win10-x64": {
@@ -18285,6 +18355,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-ios16.1": {
@@ -18835,6 +18915,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-arm": {
@@ -19378,6 +19468,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -19923,6 +20023,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-x64": {
@@ -20466,6 +20576,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -21011,6 +21131,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
@@ -21554,6 +21684,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -22099,6 +22239,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/win10-x64": {
@@ -22642,6 +22792,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -23193,6 +23353,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
@@ -23736,6 +23906,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -24281,6 +24461,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
@@ -24824,6 +25014,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -25369,6 +25569,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
@@ -25912,6 +26122,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -26457,6 +26677,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
@@ -27000,6 +27230,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -27689,6 +27929,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
@@ -28342,6 +28592,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -28997,6 +29257,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
@@ -29650,6 +29920,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -30305,6 +30585,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
@@ -30959,6 +31249,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
@@ -31612,6 +31912,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     },
@@ -32272,6 +32582,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
         }
       }
     }
@@ -36016,6 +36336,11 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "PlantumLib/1.0.0": {
+      "type": "project",
+      "path": "../PlantumLib/PlantumLib.csproj",
+      "msbuildProject": "../PlantumLib/PlantumLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -36027,6 +36352,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.86",
+      "PlantumLib >= 1.0.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -36046,7 +36372,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.86"
+      "Microsoft.Maui.Graphics >= 7.0.86",
+      "PlantumLib >= 1.0.0"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.AspNetCore.Components.WebView.Maui >= 7.0.86",
@@ -36055,7 +36382,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.86"
+      "Microsoft.Maui.Graphics >= 7.0.86",
+      "PlantumLib >= 1.0.0"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.AspNetCore.Components.WebView.Maui >= 7.0.86",
@@ -36067,7 +36395,8 @@
       "Microsoft.Maui.Graphics >= 7.0.86",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.86",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "PlantumLib >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -36106,19 +36435,35 @@
       "frameworks": {
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj": {
+              "projectPath": "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj"
+            }
+          }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj": {
+              "projectPath": "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj"
+            }
+          }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj": {
+              "projectPath": "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj"
+            }
+          }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj": {
+              "projectPath": "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

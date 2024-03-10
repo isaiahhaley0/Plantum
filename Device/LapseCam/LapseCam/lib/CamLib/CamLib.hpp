@@ -41,6 +41,7 @@ private:
     int pictureNumber = 0;
       camera_config_t config;
       APIHandler api;
+      int image_count = 0;
 public:
     CamLib(/* args */);
     ~CamLib();

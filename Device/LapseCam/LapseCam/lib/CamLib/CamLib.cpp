@@ -118,6 +118,7 @@ else {
   EEPROM.commit();
 }
 file.close();
-api.sendImage(path.c_str(),fb);
+api.sendImage(path.c_str(),fb, image_count);
+image_count++;
 esp_camera_fb_return(fb); 
 }

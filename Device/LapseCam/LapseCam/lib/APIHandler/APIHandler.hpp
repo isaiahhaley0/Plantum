@@ -18,7 +18,7 @@ public:
     APIHandler(/* args */);
     ~APIHandler();
 void initWifi();
-    void sendImage(string filepath,camera_fb_t* fb);
+    void sendImage(string filepath,camera_fb_t* fb, int image_num);
     bool check_flash();
 
 

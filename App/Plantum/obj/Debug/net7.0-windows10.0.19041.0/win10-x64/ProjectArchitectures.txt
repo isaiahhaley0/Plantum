@@ -1,1 +1,2 @@
 I:\repos\Plantum\App\Plantum\Plantum.csproj;x64
+I:\repos\Plantum\App\PlantumLib\PlantumLib.csproj;neutral

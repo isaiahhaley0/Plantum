@@ -157,3 +157,5 @@ glide.aar
 GoogleGson.aar
 Microsoft.AspNetCore.Components.WebView.Maui.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+PlantumLib.dll
+PlantumLib.aar

@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Plantum/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Plantum.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plantum.dll": {}
+        }
+      },
+      "PlantumLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PlantumLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlantumLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Plantum/1.0.0": {
+      "type": "project",
+      "path": "../Plantum/Plantum.csproj",
+      "msbuildProject": "../Plantum/Plantum.csproj"
+    },
+    "PlantumLib/1.0.0": {
+      "type": "project",
+      "path": "../PlantumLib/PlantumLib.csproj",
+      "msbuildProject": "../PlantumLib/PlantumLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Plantum >= 1.0.0",
+      "PlantumLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Isaiah\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "I:\\repos\\Plantum\\App\\PlantumTests\\PlantumTests.csproj",
+      "projectName": "PlantumTests",
+      "projectPath": "I:\\repos\\Plantum\\App\\PlantumTests\\PlantumTests.csproj",
+      "packagesPath": "C:\\Users\\Isaiah\\.nuget\\packages\\",
+      "outputPath": "I:\\repos\\Plantum\\App\\PlantumTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Isaiah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj": {
+              "projectPath": "I:\\repos\\Plantum\\App\\PlantumLib\\PlantumLib.csproj"
+            },
+            "I:\\repos\\Plantum\\App\\Plantum\\Plantum.csproj": {
+              "projectPath": "I:\\repos\\Plantum\\App\\Plantum\\Plantum.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Plantum is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project Plantum supports:\r\n  - net7.0-android33.0 (.NETCoreApp,Version=v7.0)\r\n  - net7.0-ios16.1 (.NETCoreApp,Version=v7.0)\r\n  - net7.0-maccatalyst16.1 (.NETCoreApp,Version=v7.0)\r\n  - net7.0-windows10.0.19041 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Plantum",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

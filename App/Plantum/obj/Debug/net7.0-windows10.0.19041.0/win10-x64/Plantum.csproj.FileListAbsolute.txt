@@ -350,3 +350,5 @@ I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qual
 I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PlantumLib.dll
+I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PlantumLib.pdb

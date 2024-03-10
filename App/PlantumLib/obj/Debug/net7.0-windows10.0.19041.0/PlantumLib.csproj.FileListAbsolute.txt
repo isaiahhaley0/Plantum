@@ -1,0 +1,12 @@
+I:\repos\Plantum\App\PlantumLib\bin\Debug\net7.0-windows10.0.19041.0\PlantumLib.deps.json
+I:\repos\Plantum\App\PlantumLib\bin\Debug\net7.0-windows10.0.19041.0\PlantumLib.dll
+I:\repos\Plantum\App\PlantumLib\bin\Debug\net7.0-windows10.0.19041.0\PlantumLib.pdb
+I:\repos\Plantum\App\PlantumLib\obj\Debug\net7.0-windows10.0.19041.0\PlantumLib.csproj.AssemblyReference.cache
+I:\repos\Plantum\App\PlantumLib\obj\Debug\net7.0-windows10.0.19041.0\PlantumLib.GeneratedMSBuildEditorConfig.editorconfig
+I:\repos\Plantum\App\PlantumLib\obj\Debug\net7.0-windows10.0.19041.0\PlantumLib.AssemblyInfoInputs.cache
+I:\repos\Plantum\App\PlantumLib\obj\Debug\net7.0-windows10.0.19041.0\PlantumLib.AssemblyInfo.cs
+I:\repos\Plantum\App\PlantumLib\obj\Debug\net7.0-windows10.0.19041.0\PlantumLib.csproj.CoreCompileInputs.cache
+I:\repos\Plantum\App\PlantumLib\obj\Debug\net7.0-windows10.0.19041.0\PlantumLib.dll
+I:\repos\Plantum\App\PlantumLib\obj\Debug\net7.0-windows10.0.19041.0\refint\PlantumLib.dll
+I:\repos\Plantum\App\PlantumLib\obj\Debug\net7.0-windows10.0.19041.0\PlantumLib.pdb
+I:\repos\Plantum\App\PlantumLib\obj\Debug\net7.0-windows10.0.19041.0\ref\PlantumLib.dll

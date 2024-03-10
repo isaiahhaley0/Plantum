@@ -29,25 +29,29 @@
     <AppXManifest Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-23T02:38:24.577</Modified>
+      <Modified>2024-03-10T05:53:07.878</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-23T02:38:24.064</Modified>
+      <Modified>2024-03-10T05:45:35.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Plantum.runtimeconfig.json">
       <PackagePath>Plantum.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-23T02:38:23.586</Modified>
+      <Modified>2024-03-10T03:44:18.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Plantum.dll">
       <PackagePath>Plantum.dll</PackagePath>
-      <Modified>2024-02-23T02:38:19.972</Modified>
+      <Modified>2024-03-10T05:53:05.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\repos\Plantum\App\PlantumLib\bin\Debug\net7.0-windows10.0.19041.0\PlantumLib.dll">
+      <PackagePath>PlantumLib.dll</PackagePath>
+      <Modified>2024-03-10T05:45:25.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Plantum.exe</PackagePath>
-      <Modified>2024-02-23T02:38:20.011</Modified>
+      <Modified>2024-03-10T05:53:05.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isaiah\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -987,7 +991,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Plantum.deps.json">
       <PackagePath>Plantum.deps.json</PackagePath>
-      <Modified>2024-02-23T02:38:24.389</Modified>
+      <Modified>2024-03-10T05:53:07.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
