@@ -41,7 +41,13 @@ def check_should_flash():
 
 @app.route("/camera_info",methods=['GET'])
 def get_camera_information():
-    return mhd.get_camera_data()
+    name = request.args.get('Name')
+    if name is not None:
+        ci = mhd.get_camera_info(name)
+        print(ci)
+        return ci
+    else:
+        return mhd.get_camera_data()
 
 @app.route("/photos",methods=['GET'])
 def get_photos():
@@ -57,23 +63,30 @@ def upload_photo():
     print("uploading")
     image_raw_bytes = request.get_data()  # get the whole body
     tme = time.time().__str__()
-    save_location = "E:/plant/TimeLapse/"+time.time().__str__()+".jpg"  # save to the same folder as the flask app live in
+    name = request.args.get('name')
+    sequence = request.args.get('sequence')
+    print(sequence)
+
+    save_location = "/mnt/share/Plant/images/"+name+"_"+time.time().__str__()+".jpg"  # save to the same folder as the flask app live in
     info = {}
     info['time'] = tme
     info['save_path'] = save_location
-    name = request.args.get('name')
-    if name is None:
-        name = 'cam1'
-
-    info['name'] = name
     print(name)
-    f = open(save_location, 'wb')  # wb for write byte data in the file instead of string
-    f.write(image_raw_bytes)  # write the bytes from the request body to the file
-    f.close()
-    mhd.insert_photo_record(info)
-    print("Image saved")
+    if name != "test":
+        if name is None:
+            name = 'cam1'
 
-    #return "image saved"
+        info['name'] = name
+
+        f = open(save_location, 'wb')  # wb for write byte data in the file instead of string
+        f.write(image_raw_bytes)  # write the bytes from the request body to the file
+        f.close()
+        info['brightness']=ih.get_photo_info(save_location)
+        mhd.insert_photo_record(info)
+
+        print("Image saved")
+
+        #return "image saved"
     data = {'message': 'Done', 'code': 'SUCCESS'}
     return make_response(jsonify(data),200)
 
