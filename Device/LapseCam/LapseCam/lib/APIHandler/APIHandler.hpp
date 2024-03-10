@@ -11,7 +11,7 @@ private:
     /* data */
     string ssid = "CenturyLink3333";
     string password = "c8m4i5w7b2t3s6";
-    string basePath = "http://192.168.0.5:5000";
+    string basePath = "http://192.168.0.47:5000";
     HTTPClient client;
     
 public:
