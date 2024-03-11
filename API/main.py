@@ -15,6 +15,8 @@ import os
 app = Flask(__name__)
 
 
+
+
 mhd = mh.DBHandler()
 
 @app.route("/")
@@ -89,6 +91,22 @@ def upload_photo():
         #return "image saved"
     data = {'message': 'Done', 'code': 'SUCCESS'}
     return make_response(jsonify(data),200)
+
+
+@app.route("/stats")
+def get_stats():
+    read = mhd.get_readings()
+
+    avg = 0
+
+    for r in read:
+        avg = avg + r["light"]
+
+
+    return st.get_hla()
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
 
 
 @app.route("/stats")

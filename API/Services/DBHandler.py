@@ -52,5 +52,20 @@ class DBHandler:
         cinfo = {}
         cinfo["Name"] = name
         cinfo["PhotoCount"] = len(plist)
+        min = 1000000000000
+        max = -1
+        last = 0
+        for p in plist:
+            if "brightness" in p:
+                if p["brightness"] > max:
+                    max = p["brightness"]
+
+                elif p["brightness"] < min:
+                    min = p["brightness"]
+
+                cinfo["Last_Brightness"] = p["brightness"]
+
+        cinfo["Max_Brightness"] = max
+        cinfo["Min_Brightness"] = min
 
         return cinfo
