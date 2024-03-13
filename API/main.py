@@ -60,6 +60,15 @@ def get_photos():
     fp = ih.make_gif(photo_list)
     return send_file(fp)
 
+@app.route("/photo",methods=['GET'])
+def get_last_photo():
+    name = request.args.get('name')
+    print(name)
+    if name is not None:
+        photo = ih.get_photo(camera_name=name)
+        return send_file(photo,mimetype='image/jpeg')
+
+
 @app.route("/upload",methods=['POST'])
 def upload_photo():
     print("uploading")

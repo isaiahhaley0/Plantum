@@ -1,6 +1,6 @@
 import time
 import pymongo
-
+import base64
 
 class DBHandler:
     def __init__(self):
@@ -55,6 +55,7 @@ class DBHandler:
         min = 1000000000000
         max = -1
         last = 0
+
         for p in plist:
             if "brightness" in p:
                 if p["brightness"] > max:

@@ -1,5 +1,5 @@
 import time
-
+import base64
 import Services.DBHandler as DB
 from PIL import Image, ImageSequence, ImageStat
 import sys,os
@@ -21,7 +21,7 @@ def resize_image(image):
     image.save("filename", 'JPEG', quality=quality_val)
 
 
-def make_gif(image_list, minutes_between_frames = 30):
+def make_gif(image_list, minutes_between_frames = 15):
     print("make gif")
     frames = [Image.open(image['save_path']) for image in image_list]
     frame_one = frames[0]
@@ -36,3 +36,12 @@ def get_photo_info(save_location):
     im = Image.open(save_location)
     stat = ImageStat.Stat(im)
     return stat.mean[0]
+
+
+def get_photo(camera_name):
+    photo_list = get_photos(camera_name)
+    img = photo_list[-1]['save_path']
+    return img
+
+def get_photo_base64():
+    return ""
