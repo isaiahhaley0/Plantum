@@ -24,5 +24,7 @@ namespace PlantumLib.Models
 
             } }
 
+        public double Hours_Of_Light { get;set; }
+
     }
 }

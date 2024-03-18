@@ -5,4 +5,5 @@
 .Camera-Display{
      border: 2px solid green;
      padding: 3px 3px 3px 3px;
+     border-radius: 10px;
 }

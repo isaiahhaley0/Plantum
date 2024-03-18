@@ -29,29 +29,29 @@
     <AppXManifest Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-17T22:31:34.005</Modified>
+      <Modified>2024-03-18T13:10:00.195</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-17T21:24:12.142</Modified>
+      <Modified>2024-03-18T12:15:32.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Plantum.runtimeconfig.json">
       <PackagePath>Plantum.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-17T22:31:33.082</Modified>
+      <Modified>2024-03-18T13:09:58.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Plantum.dll">
       <PackagePath>Plantum.dll</PackagePath>
-      <Modified>2024-03-17T21:24:09.576</Modified>
+      <Modified>2024-03-18T13:09:57.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\PlantumLib\bin\Debug\net7.0-windows10.0.19041.0\PlantumLib.dll">
       <PackagePath>PlantumLib.dll</PackagePath>
-      <Modified>2024-03-17T22:31:27.170</Modified>
+      <Modified>2024-03-18T13:01:01.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Plantum.exe</PackagePath>
-      <Modified>2024-03-17T21:24:09.601</Modified>
+      <Modified>2024-03-18T13:09:57.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isaiah\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -991,7 +991,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Plantum.deps.json">
       <PackagePath>Plantum.deps.json</PackagePath>
-      <Modified>2024-03-17T22:31:33.724</Modified>
+      <Modified>2024-03-18T13:10:00.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1011,11 +1011,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Plantum.styles.css">
       <PackagePath>wwwroot\Plantum.styles.css</PackagePath>
-      <Modified>2024-03-17T22:31:29.690</Modified>
+      <Modified>2024-03-18T13:01:03.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\Plantum.bundle.scp.css">
       <PackagePath>wwwroot\Plantum.bundle.scp.css</PackagePath>
-      <Modified>2024-03-17T22:31:29.703</Modified>
+      <Modified>2024-03-18T13:01:03.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
@@ -1303,7 +1303,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\Custom\Components\CameraComp.razor.css">
       <PackagePath>Custom\Components\CameraComp.razor.css</PackagePath>
-      <Modified>2024-03-17T21:25:23.328</Modified>
+      <Modified>2024-03-18T12:18:12.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>

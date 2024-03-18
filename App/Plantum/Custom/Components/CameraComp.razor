@@ -2,12 +2,13 @@
 <div class="Camera-Display">
 
 <div>
-     <span></span>
-     @Name 
+        <span>@Name </span>
+     
      Photo Count: @PhotoCount
 
      Brightness: @PctBrightness %
       
+   Hours of Light: @Hours_Of_Light Hours
         
   
    
@@ -35,7 +36,8 @@
     public double PctBrightness{ get; set; }
     [Parameter]
     public string ImageDataUrl{ get; set; }
-
+    [Parameter]
+    public double Hours_Of_Light{ get; set; }
     public double DisplayX
     {
         get
