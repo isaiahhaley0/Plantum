@@ -1,7 +1,8 @@
+import datetime
 import time
 import pymongo
 import base64
-
+from Services.image_analyzer import Image_Bucket
 class DBHandler:
     def __init__(self):
         self.__started = False;
@@ -47,6 +48,8 @@ class DBHandler:
         print(cam_name)
         return list(coll.find(fltr))
 
+    #def get_photos_last_days(self,start,end):
+
     def get_camera_info(self, name):
         plist = self.get_photos(name)
         cinfo = {}
@@ -60,15 +63,24 @@ class DBHandler:
             if "brightness" in p:
                 if p["brightness"] > max:
                     max = p["brightness"]
+                    tme = float(p["time"])
+                    print(datetime.datetime.fromtimestamp(tme))
 
                 elif p["brightness"] < min:
                     min = p["brightness"]
+                    tme = float(p["time"])
+                    print(datetime.datetime.fromtimestamp(tme))
 
                 cinfo["Last_Brightness"] = p["brightness"]
 
         cinfo["Max_Brightness"] = max
         cinfo["Min_Brightness"] = min
+        last_day = Image_Bucket(1,0,min,max)
+        for p in plist:
+            last_day.try_add_photorecord(p)
 
+        print()
+        cinfo["Hours_Of_Light"] = last_day.get_hours_above_threshold()
         return cinfo
 
     def Record_Watering(self, content):
