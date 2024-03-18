@@ -70,3 +70,7 @@ class DBHandler:
         cinfo["Min_Brightness"] = min
 
         return cinfo
+
+    def Record_Watering(self, content):
+        coll = self.__db.water_record
+        coll.insert_one(content)

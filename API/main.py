@@ -101,6 +101,16 @@ def upload_photo():
     data = {'message': 'Done', 'code': 'SUCCESS'}
     return make_response(jsonify(data),200)
 
+#@app.route("/status")
+#def get_server_status():
+
+@app.route("/water",methods=['POST'])
+def water_plants():
+    content = request.json
+    print(content)
+    mhd.Record_Watering(content)
+    res = {'status':'Watered'}
+    return make_response(200)
 
 @app.route("/stats")
 def get_stats():
