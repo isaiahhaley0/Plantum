@@ -13,7 +13,7 @@ else
 {
     @foreach (var c in cameraList)
     {
-        <CameraComp Name=@c.Name PhotoCount=@c.PhotoCount></CameraComp>
+        <CameraComp Name=@c.Name PhotoCount=@c.PhotoCount PctBrightness=@c.PCT_Brightness ImageDataUrl=@c.ImagePath></CameraComp>
     }
 }
 

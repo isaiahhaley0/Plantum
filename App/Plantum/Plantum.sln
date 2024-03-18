@@ -6,7 +6,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plantum", "Plantum.csproj",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantumLib", "..\PlantumLib\PlantumLib.csproj", "{F992B78A-BA65-42D7-BC10-CF7988B5723A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantumTests", "..\PlantumTests\PlantumTests.csproj", "{0B1D05F8-9876-4524-B42C-A8911A94FEEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantumTests", "..\PlantumTests\PlantumTests.csproj", "{0B1D05F8-9876-4524-B42C-A8911A94FEEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

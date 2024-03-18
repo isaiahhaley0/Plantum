@@ -976,6 +976,9 @@
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\Custom\Components\CameraComp.razor.css">
+      <PackagePath>Custom\Components\CameraComp.razor.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
     </AppxPackagedFile>

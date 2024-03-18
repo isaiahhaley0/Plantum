@@ -10,5 +10,19 @@ namespace PlantumLib.Models
     {
         public string Name { get; set; }
         public int PhotoCount { get; set; }
+
+        public string ImagePath { get; set; }
+        public double Max_Brightness { get; set; }
+        public double Min_Brightness { get; set;}
+        public double Last_Brightness { get; set; }
+
+        public double PCT_Brightness { get
+            {
+                var prg = Last_Brightness - Min_Brightness;
+                var range = Max_Brightness - Min_Brightness;
+                return Math.Round((prg / range * 100),2);
+
+            } }
+
     }
 }

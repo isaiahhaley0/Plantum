@@ -1,14 +1,61 @@
-﻿<h3>Camera</h3>
+﻿ @inject PlantumLib.Controllers.PlantManager PM
+<div class="Camera-Display">
 
 <div>
+     <span></span>
      @Name 
      Photo Count: @PhotoCount
-</div>
 
+     Brightness: @PctBrightness %
+      
+        
+  
+   
+     
+</div>
+<img src="@ImageDataUrl" alt="Image from Flask API" max-width=@DisplayX class="lapse-photo" />
+<div>
+
+
+    <button>DELETE</button>
+    <button @onclick="RecordWateringEvent">Water</button>
+    </div>
+</div>
 @code {
+
+
+
     [Parameter]
     public string Name{ get; set; }
 
     [Parameter]
     public int PhotoCount{ get; set; }
-}
+
+    [Parameter]
+    public double PctBrightness{ get; set; }
+    [Parameter]
+    public string ImageDataUrl{ get; set; }
+
+    public double DisplayX
+    {
+        get
+        {
+            var dd = DeviceDisplay.Current.MainDisplayInfo;
+            return dd.Width;
+        }
+    }
+
+    public double DisplayY
+    {
+        get
+        {
+            var dd = DeviceDisplay.Current.MainDisplayInfo;
+            return dd.Height;
+        }
+    }
+    public void RecordWateringEvent()
+    {
+        PM.WaterPlant(Name);
+    }
+    }
+     

@@ -352,3 +352,4 @@ I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Mult
 I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PlantumLib.dll
 I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PlantumLib.pdb
+I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\Custom\Components\CameraComp.razor.rz.scp.css
