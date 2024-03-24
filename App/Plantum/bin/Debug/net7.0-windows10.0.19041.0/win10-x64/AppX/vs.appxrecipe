@@ -29,29 +29,29 @@
     <AppXManifest Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-18T13:10:00.195</Modified>
+      <Modified>2024-03-20T01:52:40.591</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-18T12:15:32.192</Modified>
+      <Modified>2024-03-20T01:52:40.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Plantum.runtimeconfig.json">
       <PackagePath>Plantum.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-18T13:09:58.489</Modified>
+      <Modified>2024-03-20T01:52:39.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Plantum.dll">
       <PackagePath>Plantum.dll</PackagePath>
-      <Modified>2024-03-18T13:09:57.155</Modified>
+      <Modified>2024-03-20T01:52:37.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\PlantumLib\bin\Debug\net7.0-windows10.0.19041.0\PlantumLib.dll">
       <PackagePath>PlantumLib.dll</PackagePath>
-      <Modified>2024-03-18T13:01:01.010</Modified>
+      <Modified>2024-03-18T13:27:32.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Plantum.exe</PackagePath>
-      <Modified>2024-03-18T13:09:57.206</Modified>
+      <Modified>2024-03-20T01:52:37.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Isaiah\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -991,7 +991,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Plantum.deps.json">
       <PackagePath>Plantum.deps.json</PackagePath>
-      <Modified>2024-03-18T13:10:00.021</Modified>
+      <Modified>2024-03-20T01:52:40.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1011,15 +1011,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Plantum.styles.css">
       <PackagePath>wwwroot\Plantum.styles.css</PackagePath>
-      <Modified>2024-03-18T13:01:03.300</Modified>
+      <Modified>2024-03-18T13:27:21.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\Plantum.bundle.scp.css">
       <PackagePath>wwwroot\Plantum.bundle.scp.css</PackagePath>
-      <Modified>2024-03-18T13:01:03.303</Modified>
+      <Modified>2024-03-18T13:27:21.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2024-03-17T20:00:36.670</Modified>
+      <Modified>2024-03-18T13:27:21.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
@@ -1099,187 +1099,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-03-13T03:58:02.446</Modified>
+      <Modified>2024-03-20T01:52:36.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.387</Modified>
+      <Modified>2024-03-20T01:52:36.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.402</Modified>
+      <Modified>2024-03-20T01:52:36.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.417</Modified>
+      <Modified>2024-03-20T01:52:36.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.438</Modified>
+      <Modified>2024-03-20T01:52:36.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.503</Modified>
+      <Modified>2024-03-20T01:52:36.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.879</Modified>
+      <Modified>2024-03-20T01:52:36.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.034</Modified>
+      <Modified>2024-03-20T01:52:36.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.060</Modified>
+      <Modified>2024-03-20T01:52:36.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.042</Modified>
+      <Modified>2024-03-20T01:52:36.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.049</Modified>
+      <Modified>2024-03-20T01:52:36.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.800</Modified>
+      <Modified>2024-03-20T01:52:36.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.853</Modified>
+      <Modified>2024-03-20T01:52:36.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.874</Modified>
+      <Modified>2024-03-20T01:52:36.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.859</Modified>
+      <Modified>2024-03-20T01:52:36.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.864</Modified>
+      <Modified>2024-03-20T01:52:36.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.665</Modified>
+      <Modified>2024-03-20T01:52:36.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.672</Modified>
+      <Modified>2024-03-20T01:52:36.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.678</Modified>
+      <Modified>2024-03-20T01:52:36.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.685</Modified>
+      <Modified>2024-03-20T01:52:36.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.704</Modified>
+      <Modified>2024-03-20T01:52:36.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.713</Modified>
+      <Modified>2024-03-20T01:52:36.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.759</Modified>
+      <Modified>2024-03-20T01:52:36.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.782</Modified>
+      <Modified>2024-03-20T01:52:36.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.764</Modified>
+      <Modified>2024-03-20T01:52:36.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-03-13T03:58:02.772</Modified>
+      <Modified>2024-03-20T01:52:36.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.138</Modified>
+      <Modified>2024-03-20T01:52:36.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.146</Modified>
+      <Modified>2024-03-20T01:52:36.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.155</Modified>
+      <Modified>2024-03-20T01:52:36.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.166</Modified>
+      <Modified>2024-03-20T01:52:36.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.186</Modified>
+      <Modified>2024-03-20T01:52:36.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.099</Modified>
+      <Modified>2024-03-20T01:52:36.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.105</Modified>
+      <Modified>2024-03-20T01:52:36.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.112</Modified>
+      <Modified>2024-03-20T01:52:36.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.119</Modified>
+      <Modified>2024-03-20T01:52:36.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.130</Modified>
+      <Modified>2024-03-20T01:52:36.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.066</Modified>
+      <Modified>2024-03-20T01:52:36.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.071</Modified>
+      <Modified>2024-03-20T01:52:36.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.078</Modified>
+      <Modified>2024-03-20T01:52:36.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.084</Modified>
+      <Modified>2024-03-20T01:52:36.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.093</Modified>
+      <Modified>2024-03-20T01:52:36.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.299</Modified>
+      <Modified>2024-03-20T01:52:36.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.309</Modified>
+      <Modified>2024-03-20T01:52:36.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.320</Modified>
+      <Modified>2024-03-20T01:52:36.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.334</Modified>
+      <Modified>2024-03-20T01:52:36.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-03-13T03:58:03.374</Modified>
+      <Modified>2024-03-20T01:52:36.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
@@ -1303,11 +1303,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\Custom\Components\CameraComp.razor.css">
       <PackagePath>Custom\Components\CameraComp.razor.css</PackagePath>
-      <Modified>2024-03-18T12:18:12.895</Modified>
+      <Modified>2024-03-18T13:26:42.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
-      <Modified>2024-03-17T20:05:22.327</Modified>
+      <Modified>2024-03-18T13:26:43.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="I:\repos\Plantum\App\Plantum\Shared\NavMenu.razor.css">
       <PackagePath>Shared\NavMenu.razor.css</PackagePath>
