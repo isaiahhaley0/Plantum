@@ -20,7 +20,7 @@ class basic_trainer:
     def create_model(self):
         print("Starting")
 
-        dataset_dir = sef.__directory
+        dataset_dir = self.__directory
         data_dir = Path(dataset_dir).with_suffix('')
         image_count = len(list(data_dir.glob('*/*.jpg')))
         print(image_count)
@@ -92,3 +92,9 @@ class basic_trainer:
         cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path,
                                                          save_weights_only=True,
                                                          verbose=1)
+        history = model.fit(
+            train_ds,
+            validation_data=val_ds,
+            epochs=epochs,
+            callbacks=[cp_callback]
+        )
